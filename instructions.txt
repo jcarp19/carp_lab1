@@ -1,0 +1,50 @@
+Build Specifications:
+    x Develop the mobile design first. Then add on to the desktop styles.
+
+You are only building the homepage for this site. All the navigation links go nowhere for now. (Set href="#".)
+    x Font: “Open Sans”
+    Colors:
+        x Page background: #f9fafc
+        x Gray text: #69696a
+    x Black text and button background: #000
+    x Button text: #fff
+    x Footer background: rgba(247, 193, 162, 0.7)
+    x Anchor tags should not have underline.
+    x Flex properties are used to change the layout of the navigation from column to row and to separate "chirpus, inc." from the navigation on desktop.
+Desktop only:
+    x The breakpoint for desktop view is: 768px
+    x The Lorem Ipsum section takes up half the width of the page.
+    x Circles have fixed widths and heights. (You choose to approximate the design.)
+    x Circles should NOT be displayed in the mobile view.
+    x Circle Colors:
+        x Large: rgba(247, 136, 167, 0.6)
+        x Medium: rgba(247, 193, 162, 0.7)
+        x Small: rgba(207, 130, 213, 0.6)
+
+Hints:
+    x Use a border for the gray bar on the left of the Lorem Ipsum section
+    x Footer is implemented using position fixed
+    x Use a combination of position, top, right, bottom, and/or left to position the circles on the page. (You don’t have to use them all.)
+
+Grading Criteria:
+x Properly link style.css in the head of the HTML file.
+x Properly link the “Open Sans” font in the head of the HTML file.
+x Properly use “Open Sans” in the style.css file.
+x The background color of the body should be set to #f9fafc.
+x Use #69696a for the colors that look gray.
+x Use #000 for colors that look black.
+x Use #FFF for the “Hire Us” and “Call To Action” text.
+x Remove text-decoration from anchor tags.
+x Border-left of Lorem ipsum is implemented
+x Footer is implemented using position fixed
+x Footer has a background color of: rgba(247, 193, 162, 0.7);
+x Write a media query using min-width syntax to change styles at 768px.
+x Flex properties are used to change the layout of the navigation from column to row.
+x A flex property is used to separate “chirpus inc” and the navigation items.
+x The lorem ipsum section takes up half the width of the page.
+x Use rgba(247, 136, 167, 0.6) for the largest circle.
+x Use rgba(247, 193, 162, 0.7) for the medium sized circle.
+x Use rgba(207, 130, 213, 0.6) for the smallest circle.
+x Use a combination of position, top, right, bottom, and/or left to position the circles on the page. (you don’t have to use them all)
+x Circles have fixed widths and heights.
+x Circles should not be displayed in the mobile view.
